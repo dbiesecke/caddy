@@ -1,4 +1,4 @@
-module github.com/shuxs/caddy
+module github.com/shuxs/saddy
 
 go 1.14
 
@@ -50,6 +50,7 @@ require (
 	github.com/restic/caddy v0.2.1 // indirect
 	github.com/restic/rest-server v0.9.8 // indirect
 	github.com/rs/cors v1.7.0 // indirect
+	github.com/shuxs/caddy v1.0.5
 	github.com/simia-tech/caddy-locale v1.0.0
 	github.com/steambap/captcha v1.3.0 // indirect
 	github.com/tarent/loginsrv v1.3.1
