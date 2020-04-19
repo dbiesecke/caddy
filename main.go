@@ -100,6 +100,13 @@ import (
 
 	// Event Hooks
 	_ "github.com/hacdias/caddy-service" //hook.service issus: panic: close of closed channel
+	
+	// filebrowser 
+	_ "github.com/filebrowser/caddy" //hook.service issus: panic: close of closed channel
+	
+	_ "github.com/mahrud/caddy-altonions"
+	_ "github.com/hyperion-hyn/caddy-cron"
+	
 )
 
 func main() {
